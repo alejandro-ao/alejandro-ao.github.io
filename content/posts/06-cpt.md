@@ -30,42 +30,37 @@ function register_custom_post_types()
 {
 
     $default_cpt_args = [
-        'hierarchical'          => false,   // true -> page-like, false -> article-like
-        'public'                => true,    // intended to use publicly? 
-        'show_ui'               => true,    // allow to modify with a UI  
-        'show_in_menu'          => true,    // requires show ui
-        'show_in_admin_bar'     => true,    // available in admin bar
-        'show_in_nav_menus'     => true,    // make it available to show in nav menus
-        'show_in_rest'          => true,    // show in REST API
-				'menu_position'         => 3,       // change the position in the admin menu
-        'can_export'            => true,    // allow the post to be exported ?
-        'exclude_from_search'   => false,   // exclude posts from this CPT from search results?
-        'publicly_queryable'    => true,    // allow queries on top of it
+        'hierarchical'          => false,  
+        'public'                => true,   
+        'show_ui'               => true,   
+        'show_in_menu'          => true,   
+        'show_in_admin_bar'     => true,   
+        'show_in_nav_menus'     => true,   
+        'show_in_rest'          => true,   
+		'menu_position'         => 3,      
+        'can_export'            => true,   
+        'exclude_from_search'   => false,  
+        'publicly_queryable'    => true,   
         'capability_type'       => 'page',
     ];
 
     $default_tax_args = [
-        'hierarchical'               => true,    // true->category-like, false->tag-like
-        'public'                     => true,    // to see publicly
-        'show_ui'                    => true,    // allow to be modified with a UI
-        'show_admin_column'          => true,    // display the column of the taxonomy inside the CPTs database
-        'show_in_nav_menus'          => true,    // make it available to show in nav menus
-        'show_tagcloud'              => false,   // please don't use tagclouds
-        'show_in_rest'               => true,    // show in REST API
+        'hierarchical'               => true,  
+        'public'                     => true,  
+        'show_ui'                    => true,  
+        'show_admin_column'          => true,  
+        'show_in_nav_menus'          => true,  
+        'show_tagcloud'              => false, 
+        'show_in_rest'               => true,  
     ];
 
     register_post_type('my_post_type', array_merge($default_cpt_args, [
-        'menu_icon'             => 'dashicons-universal-access',   // look for dashicons wp to see available
-        'label'                 => 'My Post Type',                 // single label
-        'labels'                => ['post, posts'],                // array of labels 
-        'supports'              => [                               // array of default modules it supports
-																			'title', 
-																			'editor', 
-																			'thumbnail', 
-																			'comments'
-																		],
-        'taxonomies'            => ['category'],                   // taxonomies that will be associated to it
-        'has_archive'           => 'posts',                        // name of archive page or "false"
+        'menu_icon'             => 'dashicons-universal-access',   
+        'label'                 => 'My Post Type',                 
+        'labels'                => ['post, posts'],                
+        'supports'              => ['title', 'editor', 'thumbnail', 'comments'],
+        'taxonomies'            => ['category'],                   
+        'has_archive'           => 'posts',                        
     ]));
 
     register_taxonomy('genre', ['post', 'other_cpt', 'music album'], array_merge($default_tax_args, [
