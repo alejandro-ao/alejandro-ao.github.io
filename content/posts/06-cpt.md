@@ -3,6 +3,8 @@
 title: "Custom Post Types and Taxonomies in Wordpress"
 date: 2022-03-15
 draft: false
+categories: 
+- Wordpress development
 tags:
 - wordpress
 - php
