@@ -2,6 +2,11 @@
 title: "How to create a child theme in Wordpress with code"
 date: 2021-11-15
 draft: false
+categories: 
+- Wordpress development
+tags:
+- wordpress
+- php
 ---
 
 Creating a child-theme in Wordpress is extremely useful. It allows you to modify your theme while still getting updates to that theme. 

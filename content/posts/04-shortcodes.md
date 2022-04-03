@@ -3,6 +3,11 @@
 title: "How to create short-codes in Wordpress"
 date: 2022-02-15
 draft: false
+categories: 
+- Wordpress development
+tags:
+- wordpress
+- php
 ---
 
 Short-codes are one of the signatures of Wordpress. They allow you to add functionalities to your website by just adding a few characters in the following format: `[my-shortcode]`. 

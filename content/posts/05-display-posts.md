@@ -3,6 +3,11 @@
 title: "How to display Recent posts in Wordpress"
 date: 2022-03-01
 draft: false
+categories: 
+- Wordpress development
+tags:
+- wordpress
+- php
 ---
 
 When working within the Wordpress framework you will soon be confronted with the necessity of displaying the posts that are saved in your database. Be it for an archive page or because you want to display your latest posts in your homepage. 

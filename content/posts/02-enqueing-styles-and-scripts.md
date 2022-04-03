@@ -2,6 +2,11 @@
 title: "How to enqueue styles and scripts in Wordpress"
 date: 2021-12-15
 draft: false
+categories: 
+- Wordpress development
+tags:
+- wordpress
+- php
 ---
 
 ## How to enqueue scripts and styles in Wordpress

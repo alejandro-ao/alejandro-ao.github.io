@@ -2,6 +2,11 @@
 title: "How to add a favicon to your Wordpress website"
 date: 2022-01-15
 draft: false
+categories: 
+- Wordpress development
+tags:
+- wordpress
+- php
 ---
 
 There are better and worse ways to add a favicon to your Wordpress website. In regular websites, all you would need to do to add a favicon is to add the following tag to your header:

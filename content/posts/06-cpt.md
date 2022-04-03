@@ -3,6 +3,9 @@
 title: "Custom Post Types and Taxonomies in Wordpress"
 date: 2022-03-15
 draft: false
+tags:
+- wordpress
+- php
 ---
 
 Custom Post Types (CPT) in Wordpress are just like blog posts, except that you can manipulate them to make them correspond to any type of publication you want. 

@@ -1,4 +1,5 @@
-baseURL = "/blog"
+# baseURL = "/blog"  # prod
+baseURL = ""  # local
 languageCode = "en-us"
 title = "Alejandro AO - Coding Knowledge Base"
 theme = "cactus"
@@ -15,8 +16,8 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Categories"
+url = "/categories"
 weight = 3
 
 [[menu.main]]
