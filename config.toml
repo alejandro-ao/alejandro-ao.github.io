@@ -1,5 +1,5 @@
-baseURL = "/blog"  # prod
-# baseURL = ""  # local
+# baseURL = "/blog"  # prod
+baseURL = ""  # prod on aavila0707.github.io
 languageCode = "en-us"
 title = "Alejandro AO - Coding Knowledge Base"
 theme = "cactus"
