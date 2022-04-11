@@ -11,7 +11,7 @@ Every time I learn something new, I try to write a short article about what I ju
 
 The result is that I currently have a growing library of more than a hundred articles about all aspects of web development. The idea behind this blog is to publish those articles so they can be used by others.
 
-You can see a list of my blog posts [here](posts)!
+You can see a list of my blog posts [here](/posts)!
 
 ## Who am I?
 My name is Alejandro. I am a self-taught web developer. I currently live in France and work as a full-stack web developer at a local agency. Do reach out to me if you want to discuss!
