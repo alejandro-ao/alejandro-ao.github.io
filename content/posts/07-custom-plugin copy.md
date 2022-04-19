@@ -79,3 +79,10 @@ get_home_path()
 ```
 
 From Wordpress
+```php
+admin_url()
+site_url()
+content_url()
+includes_url()
+wp_upload_dir()
+```
