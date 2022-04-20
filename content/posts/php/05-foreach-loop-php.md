@@ -8,7 +8,7 @@ tags:
 - php
 ---
 
-Arrays are probably one of the structures that you will work the most with. They exist for one main reason: to be able to iterate through their elements and perform operations with them. The easiest way to iterate through arrays in PHP is using the `foreach` loop. 
+Arrays are probably one of the structures that you will work the most with. They exist for one main reason: to be able to iterate through their elements and perform operations with them. And the easiest way to iterate through arrays in PHP is using the `foreach` loop. 
 
 ## The syntax
 
