@@ -33,6 +33,7 @@ showProjectsList = false
 # projectsUrl = "https://github.com/aavila0707"
 showAllPostsArchive = true
 googleAnalytics = 'G-DX9NBBZEPN'
+logo = "/images/logo.png"
 
 [[params.social]]
 name = "github"
