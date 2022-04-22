@@ -30,8 +30,9 @@ colortheme = "dark"
 showAllPostsOnHomePage = false
 postsOnHomePage = 20
 showProjectsList = false
-projectsUrl = "https://github.com/aavila0707"
+# projectsUrl = "https://github.com/aavila0707"
 showAllPostsArchive = true
+googleAnalytics = 'G-DX9NBBZEPN'
 
 [[params.social]]
 name = "github"
@@ -47,7 +48,7 @@ link = "alejandro@progressifmedia.com"
 
 [params.comments]
 enabled = true
-enigne = "disqus"
+# enigne = "disqus"
 
 [markup.highlight]
 codeFences = true
