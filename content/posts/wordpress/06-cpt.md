@@ -69,7 +69,7 @@ function register_custom_post_types()
     ]));
 
     register_taxonomy('genre', ['post', 'other_cpt', 'music album'], array_merge($default_tax_args, [
-        'labels' => pm_generate_tax_labels("dossier")
+        // other labels
     ]));
 }
 
