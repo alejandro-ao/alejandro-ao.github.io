@@ -52,8 +52,8 @@ This post type would probably have other fields, other than content and thumbnai
 </span></span><span style=display:flex><span>    ]));
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#a6e22e>register_taxonomy</span>(<span style=color:#e6db74>&#39;genre&#39;</span>, [<span style=color:#e6db74>&#39;post&#39;</span>, <span style=color:#e6db74>&#39;other_cpt&#39;</span>, <span style=color:#e6db74>&#39;music album&#39;</span>], <span style=color:#a6e22e>array_merge</span>($default_tax_args, [
-</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#39;labels&#39;</span> <span style=color:#f92672>=&gt;</span> <span style=color:#a6e22e>pm_generate_tax_labels</span>(<span style=color:#e6db74>&#34;dossier&#34;</span>)
-</span></span><span style=display:flex><span>    ]));
+</span></span><span style=display:flex><span>        <span style=color:#75715e>// other labels
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    ]));
 </span></span><span style=display:flex><span>}
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#a6e22e>add_action</span>( <span style=color:#e6db74>&#39;init&#39;</span>, <span style=color:#e6db74>&#39;register_custom_post_types&#39;</span>, <span style=color:#ae81ff>0</span> );
