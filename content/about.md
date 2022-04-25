@@ -14,6 +14,4 @@ The result is that I currently have a growing library of more than a hundred art
 You can see a list of my blog posts [here](/posts)!
 
 ## Who am I?
-My name is Alejandro. I am a self-taught web developer. I currently live in France and work as a full-stack web developer at a local agency. Do reach out to me if you want to discuss!
-
-Bonne lecture.
+My name is Alejandro. I am a self-taught web developer. I currently live in France and work as a full-stack web developer at a local agency.
