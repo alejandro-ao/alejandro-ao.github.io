@@ -26,7 +26,7 @@ url = "/about"
 weight = 4
 
 [params]
-colortheme = "white"
+colortheme = "dark"
 showAllPostsOnHomePage = false
 postsOnHomePage = 20
 showProjectsList = false
