@@ -1,6 +1,6 @@
 
 ---
-title: "How to do Ajax in Wordpress"
+title: "How to do AJAX in Wordpress"
 date: 2022-04-10
 draft: false
 categories: 
@@ -25,8 +25,8 @@ jQuery.ajax({
     type: "post",
     url: `${window.location.origin}/wp-admin/admin-ajax.php`,
     data: {
-      action: "offres_apply_filters",
-      all_filters: appliedFilters,  // any JS object
+      action: "my_action",
+      data: myData,  // any JS object
     },
     complete: function (response) {
       console.log(JSON.parse(response.responseText).data);
@@ -35,12 +35,12 @@ jQuery.ajax({
 ```
 
 ```php
-add_action('wp_ajax_offres_apply_filters', 'offres_apply_filters');
-add_action('wp_ajax_nopriv_offres_apply_filters', 'offres_apply_filters');
+add_action('wp_ajax_my_action', 'my_function');
+add_action('wp_ajax_nopriv_my_action', 'my_function');
 
-function offres_apply_filters() {
-    $current_filters = $_POST['all_filters'];
-    wp_send_json_success($current_filters);
+function my_function() {
+    $data = $_POST['data'];
+    wp_send_json_success($data);
 }
 ```
 
@@ -51,8 +51,8 @@ const axios = require("axios").default;
 const Qs = require("qs");
 
 let data = {
-    action: "offres_apply_filters",
-    all_filters: appliedFilters,  // any JS object
+    action: "my_action",
+    data: myData,  // any JS object
   };
   
   axios
@@ -65,12 +65,12 @@ let data = {
 ```
 
 ```php
-add_action('wp_ajax_offres_apply_filters', 'offres_apply_filters');
-add_action('wp_ajax_nopriv_offres_apply_filters', 'offres_apply_filters');
+add_action('wp_ajax_my_action', 'my_function');
+add_action('wp_ajax_nopriv_my_action', 'my_function');
 
 function offres_apply_filters() {
-    $current_filters = $_POST['all_filters'];
-    wp_send_json_success($current_filters);
+    $data = $_POST['data'];
+    wp_send_json_success($data);
 }
 ```
 
