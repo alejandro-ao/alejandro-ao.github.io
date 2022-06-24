@@ -37,10 +37,21 @@ header .meta a:hover {
 
 /* header */
 #header #nav ul a {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 /* inline code */
 :is(p, ol) code {
   font-size: 0.9em;
+}
+
+/* metas */
+article header .meta {
+  margin-top: 0.5rem;
+}
+
+.article-read-time:before,
+.article-tag:before,
+.article-category:before {
+  margin-inline: 1rem;
 }
