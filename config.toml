@@ -1,7 +1,7 @@
 # baseURL = "/blog"  # prod
-baseURL = "https://aavila0707.github.io/"  # prod on aavila0707.github.io
+baseURL = "https://aavila0707.github.io/" # prod on aavila0707.github.io
 languageCode = "en-us"
-title = "Alejandro AO - Coding Knowledge Base"
+title = "Coding Knowledge Base"
 theme = "cactus"
 defaultContentLanguage = "en"
 
@@ -26,7 +26,7 @@ url = "/about"
 weight = 4
 
 [params]
-colortheme = "dark"
+colortheme = "white" # dark, light, white, or classic
 showAllPostsOnHomePage = false
 postsOnHomePage = 20
 showProjectsList = false
@@ -34,6 +34,7 @@ showProjectsList = false
 showAllPostsArchive = true
 googleAnalytics = 'G-DX9NBBZEPN'
 logo = "/images/logo.png"
+css = ["css/custom.css"]
 
 [[params.social]]
 name = "github"
@@ -49,8 +50,8 @@ link = "alejandro@progressifmedia.com"
 
 [params.comments]
 enabled = true
-# enigne = "disqus"
 
+# enigne = "disqus"
 [markup.highlight]
 codeFences = true
 guessSyntax = false
