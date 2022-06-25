@@ -1,9 +1,11 @@
 # baseURL = "/blog"  # prod
-baseURL = "https://aavila0707.github.io/" # prod on aavila0707.github.io
+# baseURL = "https://aavila0707.github.io/" # prod on aavila0707.github.io
+baseURL = "codeinfrance.com/" # prod on aavila0707.github.io
 languageCode = "en-us"
-title = "Coding Knowledge Base"
+title = "Code in France 🇫🇷"
 theme = "cactus"
 defaultContentLanguage = "en"
+googleAnalytics = 'G-DX9NBBZEPN'
 
 [[menu.main]]
 name = "Home"
@@ -32,7 +34,6 @@ postsOnHomePage = 20
 showProjectsList = false
 # projectsUrl = "https://github.com/aavila0707"
 showAllPostsArchive = true
-googleAnalytics = 'G-DX9NBBZEPN'
 logo = "/images/logo.png"
 css = ["css/custom.css"]
 
