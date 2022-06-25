@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+body .content p {
+  font-size: 16px;
+}
+
 /* links */
 .post-item a,
 .category-list-item a,
@@ -40,12 +44,17 @@ header .meta a:hover {
   font-weight: 500;
 }
 
+#header-post #actions ul li {
+  margin-right: 0.2rem;
+}
+
 /* inline code */
 :is(p, ol) code {
   font-size: 0.9em;
 }
 
 /* metas */
+header #nav,
 article header .meta {
   margin-top: 0.5rem;
 }
