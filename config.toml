@@ -5,7 +5,7 @@ languageCode = "en-us"
 title = "Alejandro AO - Coding from France 🇫🇷"
 theme = "cactus"
 defaultContentLanguage = "en"
-googleAnalytics = 'G-DX9NBBZEPN'
+googleAnalytics = 'G-1B1DSVJ5J0'
 
 [[menu.main]]
 name = "Home"
