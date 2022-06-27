@@ -6,6 +6,7 @@ title = "Alejandro AO - Coding from France 🇫🇷"
 theme = "cactus"
 defaultContentLanguage = "en"
 googleAnalytics = 'G-1B1DSVJ5J0'
+enigne = "disqus"
 
 [[menu.main]]
 name = "Home"
@@ -52,7 +53,7 @@ link = "alejandro@progressifmedia.com"
 [params.comments]
 enabled = true
 
-# enigne = "disqus"
+
 [markup.highlight]
 codeFences = true
 guessSyntax = false
