@@ -1,8 +1,8 @@
 # baseURL = "/blog"  # prod
-baseURL = "https://alejandro-ao.github.io/" # prod on aavila0707.github.io
-# baseURL = "https://codeinfrance.com/" # prod on aavila0707.github.io
+# baseURL = "https://alejandro-ao.github.io/" # prod on aavila0707.github.io
+baseURL = "https://codeinfrance.com/" # prod on codeinfrance.com
 languageCode = "en-us"
-title = "Alejandro AO - Coding from France 🇫🇷"
+title = "Code in France - Full Stack Developer in France 🇫🇷"
 theme = "cactus"
 defaultContentLanguage = "en"
 googleAnalytics = 'G-1B1DSVJ5J0'
