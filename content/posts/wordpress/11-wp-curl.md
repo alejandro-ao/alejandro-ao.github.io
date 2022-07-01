@@ -10,18 +10,17 @@ tags:
 - php
 ---
 
-Do you want to use the cURL command in PHP and make API calls in Wordpress?
+Let’s learn how to use cURL in PHP (and, more specifically, in Wordpress) and why it is extremely simple.
 
- Why wouldn’t you? **The cURL command of your terminal is the easiest way there is to test simple API calls**. It’s even easier and more straightforward than Postman!
-
-**Is curl that easy?** Say you need to test that an endpoint of your API is working. Just *curl* it in your terminal and see the results. 
-
-If you want to see how simple it is, just run this in your terminal. You will get the info of the github user “defunkt” (and it was using a single command):
+Say you need to test that an endpoint of your API is working. Just curl it in your terminal and see the results. Say, for example, that you want to retrieve the info of a Github user with a single line:
 
 ```bash
 curl https://api.github.com/users/defunkt
 ```
 
+If only you could just copy and paste that curl request from the terminal to your PHP code.
+
+Well, there is a way.
 ## Why use cURL in WordPress?
 
 Say, for example that you need to add a contact to a MailChimp audience. You go to their documentation and see that they provide the following example of how to make a request with cURL from the terminal:
